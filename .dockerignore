@@ -1,0 +1,16 @@
+node_modules/
+npm-debug.log
+Dockerfile
+.dockerignore
+.git
+.gitignore
+schema.txt
+
+############################
+# k8s secrets config
+############################
+
+k8s/secrets*.yml
+k8s/secrets*.yaml
+k8s/*/secrets*.yml
+k8s/*/secrets*.yaml

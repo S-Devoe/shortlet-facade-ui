@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220; /* #D6DBDC */
+  --background-end-rgb: 255, 255, 255; /* #FFFFFF */
+  --color-primary: 22 19 61; /* #16133D */
+  --color-orange: 255 86 38; /* #FF5626 */
+  --color-red: 255 89 94; /* #FF595E */
+  --color-jasmine: 243 203 43; /* #F3CB2B */
+  --color-brun: 0 90 29; /* #005A1D */
+  --color-lilac: 238 234 249; /* #EEEAF9 */
+  --color-nude: 238 238 216; /* #EEEED8 */
+  --color-baby: 255 222 225; /* #FFDEE1 */
+  --color-lime: 224 255 169; /* #E0FFA9 */
+  --color-mint: 210 253 255; /* #D2FDFF */
+  --color-blue: 151 203 255; /* #97CBFF */
+  --color-gray: 14 16 4; /* #0E1004 */
+  --color-black: 28 31 34; /* #1C1F22 */
+  --color-white: 255 255 255; /* #FFFFFF */
+  --color-tertiary-lime: 224 255 169; /* #E0FFA9 */
+  --color-primary-darker: 11 9 31; /* #0B091F */
+  --color-orange-dark: 242 54 2; /* #F23602 */
+  --color-orange-light: 255 239 235; /* #FFEFEB */
+  --color-gray-seven: 211 220 230; /* #D3DCE6 */
+  --color-primary-lighter: 50 43 140; /* #322B8C */
+  --color-gray-two: 37 41 45; /* #25292D */
+  --color-gray-three: 68 72 84; /* #444854 */
+  --color-gray-six: 185 188 200; /* #B9BCC8 */
+  --color-gray-five: 110 113 124; /* #6E717C */
+  --color-gray-ten: 239 242 247; /* #EFF2F7 */
+  --color-brun-light: 0 143 45; /* #008F2D */
+  --color-jasmine-fainter: 254 250 236; /* #FEFAEC */
+  --color-brun-primary-fainter: 225 224 246; /* #E1E0F6 */
+  --color-brun-fainter: 214 255 226; /* #D6FFE2 */
+  --color-jasmine-dark: 231 188 13; /* #E7BC0D */
+  --color-red-dark: 255 31 38; /* #FF1F26 */
+  --color-red-fainter: 255 235 235; /* #FFEBEB */
+  font-size: 16px;
+}
+
+body {
+  @apply text-black bg-white;
+}
+
+* {
+  @apply font-sans scroll-smooth;
+}
+
+a {
+  color: inherit !important;
+}
+
+.ant-typography {
+  color: inherit !important;
+  position: relative !important;
+}
+
+h1.ant-typography,
+h1.title {
+  color: inherit !important;
+  font-weight: 900 !important;
+  position: relative !important;
+  font-family: var(--font-serif) !important;
+  margin-bottom: 0.5em !important;
+}
+
+.ant-slider-handle::after {
+  background-color: #8882d9 !important;
+  box-shadow: 0 0 0 2px #8882d9 !important;
+}
+.ant-skeleton-paragraph {
+  margin-block-start: 16px !important;
+}

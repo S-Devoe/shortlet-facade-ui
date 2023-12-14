@@ -1,0 +1,1 @@
+export const numberToNaira = (value: number): string => `₦${value}`;
