@@ -1,8 +1,9 @@
 import "./style.scss";
 import BoldEditIcon from "@/components/icons/BoldEditIcon";
 import Button from "@/components/button/button-cva";
-import ReviewModal from "../modal/ReviewModal";
+
 import { useState } from "react";
+import ReviewModal from "@/components/modals/ReviewModal/ReviewModal";
 
 interface Props {
   status: string | null;
