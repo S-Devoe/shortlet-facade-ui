@@ -1,0 +1,11 @@
+.booking-mini-header{
+    @apply font-bold text-[1.125rem] leading-[1.5rem] text-black ;
+}
+
+.booking-text-light{
+    @apply text-black text-[1rem] leading-[1.25rem] font-normal;
+}
+
+.booking-text{
+    @apply text-black text-[1rem] leading-[1.25rem] font-medium;
+}
